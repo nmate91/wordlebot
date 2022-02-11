@@ -1,0 +1,38 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "pwa-node",
+            "request": "launch",
+            "name": "Launch Program",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\index.js",
+            "args": [".....", "include=eu", "exclude=hos"]
+        },
+        {
+            "type": "pwa-node",
+            "request": "launch",
+            "name": "Stats",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\stats.js",
+            "args": []
+        },
+        {
+            "type": "pwa-node",
+            "request": "launch",
+            "name": "Solveall",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\solveall.js",
+            "args": []
+        }
+    ]
+}
